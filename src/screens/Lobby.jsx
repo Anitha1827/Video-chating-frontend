@@ -56,7 +56,7 @@ const LobbyScreen = () => {
   useEffect(() => {
     const fetchUserData = async () => {
       try {
-        const response = await axios.get("http://localhost:8001/auth/users", {
+        const response = await axios.get("https://video-chating-application.onrender.com/auth/users", {
           headers: { Authorization: `Bearer ${localStorage.getItem("token")}` },
         });
         setUserData(response.data);

@@ -14,7 +14,7 @@ const AdminRegister = () => {
     
         try {
           // make a request to the backend API to register the user
-          const response = await axios.post("http://localhost:3001/auth/register", {
+          const response = await axios.post("https://video-chating-application.onrender.com/auth/register", {
             email,
             password,
             username,

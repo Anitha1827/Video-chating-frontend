@@ -15,7 +15,7 @@ const Login = () => {
 
     try {
       // make a request to the backend API to login the user
-      const response = await axios.post("http://localhost:8001/auth/login", {
+      const response = await axios.post("https://video-chating-application.onrender.com/auth/login", {
         email,
         password,
       });

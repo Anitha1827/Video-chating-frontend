@@ -10,7 +10,7 @@ const UserCharts = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:3001/auth/users')
+    fetch('https://video-chating-application.onrender.com/auth/users')
       .then((response) => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
