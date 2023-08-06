@@ -6,7 +6,7 @@ import RoomPage from "./screens/Room";
 import Home from "./components/Home";
 import Register from "./components/Register";
 import Login from "./components/Login";
-import UserCharts from "./components/UserCharts";
+// import UserCharts from "./components/UserCharts";
 import Dashboard from "./components/Dashboard";
 
 
@@ -16,7 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/admin" element={<UserCharts />}/>
+          {/* <Route path="/admin" element={<UserCharts />}/> */}
           <Route path="/dashboard" element={<Dashboard />}/>
           <Route path="/lobby" element={<LobbyScreen />} />
           <Route path="/room/:roomId" element={<RoomPage />} />
