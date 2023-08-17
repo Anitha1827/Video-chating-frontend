@@ -24,8 +24,8 @@ const Register = () => {
 
       // If registration is successful, navigate to the dashboard
       if (response.status === 200) {
-        // navigate("/dashboard");
-        navigate("/room/:roomId");
+         navigate("/dashboard");
+        // navigate("/room/:roomId");
         console.log("success to roompage")
       }
     } catch (error) {
