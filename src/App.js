@@ -6,7 +6,7 @@ import RoomPage from "./screens/Room";
 import Home from "./components/Home";
 import Register from "./components/Register";
 import Login from "./components/Login";
-// import UserCharts from "./components/UserCharts";
+import UserCharts from "./components/UserCharts";
 import Dashboard from "./components/Dashboard";
 
 
